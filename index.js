@@ -65,8 +65,10 @@ function EventDetails() {
   $event.classList.add("event");
   $event.innerHTML = `
     <h3>${selectedEvent.name} #${selectedEvent.id}</h3>
+    <br>
     <p>${selectedEvent.date}</p>
     <address>${selectedEvent.location}</address>
+    <br>
     <p>${selectedEvent.description}</p>
     `;
   return $event;
